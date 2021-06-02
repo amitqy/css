@@ -1,0 +1,29 @@
+/* preprocessing *  */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.first {
+  font-size: inherit;
+  padding: 0.5em;
+  /* Higher the integer value more darker */
+  border: 1px solid hsl(125, 100%, 50%);
+  border-radius: 0.3em;
+}
+.first:focus {
+  outline: none;
+  box-shadow: 0 0 4px 0 hsl(88, 100%, 50%);
+}
+
+.delete {
+  font-size: inherit;
+  padding: 0.5em;
+  border: 1px solid hsl(2, 100%, 50%);
+  border-radius: 0.3em;
+}
+.delete:focus {
+  outline: none;
+  box-shadow: 0 0 4px 0 hsl(13, 100%, 50%);
+}
